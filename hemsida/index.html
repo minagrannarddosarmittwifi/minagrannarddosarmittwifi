@@ -1,0 +1,61 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>OverWatch</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Karaktärer</a></li>
+                    <li><a href="menyval2.html">Gamemodes</a></li>
+                    <li><a href="menyval3.html">Events</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+        <h1>OverWatch</h1>
+
+         
+         <img  src="bilder/owbild.jpg">
+         <p>Overwatch är ett online fps (first person shoter) spel där du spelar
+         med 24 olika hjältar/karaktärer på flera olika mapar. Det finns fyra olika 
+         klasser där karaktärerna är indelade i. Dom klasserna är Offense, Defense, Tank och Support. I varje lag så är man 6 personer och det finns en väldigt vanlig strategi på OverWatch som kallas för 2-2-2 det mennas med två Support två Tanks och Två dps. Dps står för Damage per second och det är både offense och defense karaktärer.</p>
+         <a href="https://eu.battle.net/shop/en/product/overwatch-origins?utm_term=overwatch&adv.n=Blizzard%20SWEDEN&utm_source=google&utm_medium=cpc&utm_content=31246012000&utm_campaign=MEC_397455040&gclid=CKDCqd75y9QCFRPgGQodfiAFzQ">OverWatch</a>
+         <li><a href="menyval1.html"></a></li>
+    </main>
+</body>
+</html>

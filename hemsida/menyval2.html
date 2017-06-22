@@ -1,0 +1,69 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Karaktärer</a></li>
+                    <li><a href="menyval2.html">Gamemodes</a></li>
+                    <li><a href="menyval3.html">Events</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>Quickplay    </h1
+    <li>Quickplay är ett gamemode på Ovewatch där det är 6 i varje lag och beroende på vilken map det blir så blir det olika uppdrag tex Escorta en paveload eller ta över en hill och försvara och attackera en point. Ena laget får attacker och andra laget får försvara det är slumpmässigt vad man ska göra.</li>
+    <img src="bilder/Quickplay.jpg">
+    <h1>Arcade</h1
+    <li>Arcade har flera gamemodes i sig och dem är 3v3 lockout elimination, 1v1 lockout elimination, Total Mayhem och Capture the flag. 3v3 lockout elimination är att man bara får köra en karaktär en gång och det är tre i varje lag och du ska eliminera det andra laget när du har gjort det tre gånger har du vunnit. 1v1 lockout elimination är samma sak fast det är till fem och bara en i varje lag. Total mayhem är som quickplay fast med mer liv och Capture the flag ska du ta det andra lagets flagga till din flagga och när du har gjort det tre gånger så vinner du.</li>
+    <img src="bilder/arcade.jpg">
+    <h1>Competetive</h1>
+    <li>Competetive är som quickplay fast du har en rank och kan rankka up och ranka ner och du får både försvara och attackera. Dom olika ranksen i Competetive är Bronze, Silver, Gold, Platinum, Diamond, Master, Grandmaster, Top 500</li>
+    <img src="bilder/Competetive.jpg">
+    <img src="bilder/Comprank.png">
+    <h1>players vs Ai</h1>
+    <li>Players vs Ai är som quickplay fast du möter datorer istället för riktiga spelar och du kan välja svårhetsgrad på dom tex lätt, medium och svårt.
+    <img src="bilder/playai.jpg">
+
+
+
+
+    </main>
+</body>
+</html>
